@@ -33,6 +33,7 @@ body {
 .hero-buttons {
     display: flex;
     justify-content: left;
+    margin-bottom: 30px;
 }
 .hero-button {
     margin: 0 10px;
