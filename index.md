@@ -2,6 +2,9 @@
 layout: default
 ---
 
+# [P.D.U is on App Store](https://apps.apple.com/us/app/p-d-u/id6443928730)
+
+### 下载地址 ： [https://apps.apple.com/us/app/p-d-u/id6443928730](https://apps.apple.com/us/app/p-d-u/id6443928730)
 
 # [P.D.U iOS beta App is Available](https://testflight.apple.com/join/FqQGxhbn)
 
