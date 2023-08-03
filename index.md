@@ -34,6 +34,7 @@ For users that want to try the latest version, please click this link from your 
 
 随时更新的笔记，包含从PDU之禅 0.2 之后的内容，持续整理中。主要记录自己对于去中心化系统结构的一些认知、思考和疑问。如何从个体而非整体的角度去理解这个世界，理解所见世界存在原因和运行规律……
 
+- [笔记 (0.tweets)](./docs/zh/Tweets.md)
 - [笔记 (1)](./docs/zh/Draft.html#note1)
 - [笔记 (2)](./docs/zh/Draft.html#note2)
 - [笔记 (3)](./docs/zh/Draft.html#note3)
