@@ -488,33 +488,6 @@ A decentralized identity-based social network https://t.co/vkeFHabx2w #P2P #Soci
 
 [Top](#Tweets)
 
-#60
-
-**Thu Mar 19 13:16:58 +0000 2020**
-
-看了国家监委调查组今天发布《关于群众反映的涉及李文亮医生有关情况调查的通报》https://t.co/1s0RlSnrbq，一个牵连千万条性命，亿万人生活的事件，竟然只是一个派出所处理不当，程序不规范。天理何在！？
-#LiWenliang #李文亮
-
-[Top](#Tweets)
-
-#61
-
-**Thu Mar 19 14:28:59 +0000 2020**
-
-想起《我的团长我的团》里，川军团刚到阐达，龙文章喝酒时说的那几句：
-上敬战死的英灵，
-下敬涂炭的生灵，
-中间的敬，人世间的良心。 https://t.co/UdbFMoINHB
-
-[Top](#Tweets)
-
-#62
-
-**Fri Mar 20 14:39:10 +0000 2020**
-
-望前辈一切安好…… https://t.co/HrWe65Mr7l
-
-[Top](#Tweets)
 
 #63
 
@@ -982,13 +955,7 @@ PageRank以页面（信息）作为节点，以信息间的联系为基础来计
 
 [Top](#Tweets)
 
-#120
 
-**Tue Jan 12 01:28:45 +0000 2021**
-
-最近发生的一些事也许预示着更大的一场变革即将到来。服务于信息传播的企业展示出对于群体信息流向越来越强的控制力，无论这种力量被政府所掌控，还是被企业自身所掌控，其最终后果都是个体的意愿被扭曲。
-
-[Top](#Tweets)
 
 #121
 
@@ -1230,11 +1197,6 @@ NFT的一个最适用场景
 
 [Top](#Tweets)
 
-#151
-
-**Thu Dec 09 00:34:25 +0000 2021**
-
-错了，应修不动心 https://t.co/ScID4kYHft
 
 [Top](#Tweets)
 
@@ -1310,29 +1272,6 @@ https://t.co/DPyEzIDIGL 《广义心里史学》来自于阿西莫夫的《基�
 
 [Top](#Tweets)
 
-#161
-
-**Mon Feb 28 19:23:19 +0000 2022**
-
-一个为了维护自身权位，甚至不惜修改宪法的独裁者，会对世界造成怎样的危害，会对本国人民造成何种灾难，他是最坏的榜样，也是最好的例子。 https://t.co/l4IFYvONZU
-
-[Top](#Tweets)
-
-#162
-
-**Mon Feb 28 19:48:36 +0000 2022**
-
-冻结俄罗斯海外资产，并将其踢出swift系统将会给普京个人带来巨大，甚至致命的打击。因为没有人能够独自统治，而普京发动的侵略乌克兰的战争，招致的后果已经严重打击其制胜团队的根本利益。现在对于普京身边的制胜团队而言，比起陪他一起毁灭，取而代之显然是更优的选择。 https://t.co/aacJdFWNWD
-
-[Top](#Tweets)
-
-#163
-
-**Wed Mar 09 01:13:11 +0000 2022**
-
-现在这个时间点，俄罗斯入侵乌克兰，无论以惨胜或惨败收场都应该能挽救某国。它展示了大多数国家面对战争时的团结和侵略国人民由经济崩溃带来的损失，虽不足以唤醒普罗大众，但相信一定能让其致胜联盟无比清晰。如果以“收复”名义的战争意愿消失，那即便宪法没有限制，长期执政的理由也就不存在了。
-
-[Top](#Tweets)
 
 #164
 
@@ -1371,13 +1310,6 @@ https://t.co/DPyEzIDIGL 《广义心里史学》来自于阿西莫夫的《基�
 
 [Top](#Tweets)
 
-#168
-
-**Fri Mar 18 22:58:48 +0000 2022**
-
-RT @Schwarzenegger: I love the Russian people. That is why I have to tell you the truth. Please watch and share. https://t.co/6gyVRhgpFV
-
-[Top](#Tweets)
 
 #169
 
@@ -1443,31 +1375,6 @@ RT @Schwarzenegger: I love the Russian people. That is why I have to tell you th
 
 [Top](#Tweets)
 
-#177
-
-**Mon Apr 25 21:40:59 +0000 2022**
-
-其实大多数人很关注出现的问题，并积极表达自己对问题的态度，但对于如何解决问题却并不关注，也许是因为智力所限吧。毕竟表达态度是容易的，只是喜怒哀乐中的选择问题。
-
-[Top](#Tweets)
-
-#178
-
-**Sat Apr 30 23:28:04 +0000 2022**
-
-@435Hz 所谓庆父不死鲁难未已
-
-[Top](#Tweets)
-
-#179
-
-**Sat May 07 07:54:22 +0000 2022**
-
-如何实现P2P的社交网络服务。
-
-https://t.co/3ctdfnBDSS如何实现p2-p的社交网络服务-bafyreiegajb3osyfc426yr4xkqisesxqhqyc2rpxvu3je7k7fqvujjyaa4
-
-[Top](#Tweets)
 
 #180
 
@@ -1545,37 +1452,6 @@ https://t.co/3ctdfnBDSS如何实现p2-p的社交网络服务-bafyreiegajb3osyfc4
 
 [Top](#Tweets)
 
-#189
-
-**Sat Jun 04 05:47:10 +0000 2022**
-
-https://t.co/l2Mrw7T3U4
-
-[Top](#Tweets)
-
-#190
-
-**Sat Jun 25 08:32:52 +0000 2022**
-
-https://t.co/6Ph2Ht5rSH
-
-[Top](#Tweets)
-
-#191
-
-**Thu Jul 21 14:11:38 +0000 2022**
-
-RT @Jam79922967: 据称，这是最近清华大学校园里流传的一张传单。 https://t.co/br5kXbderw
-
-[Top](#Tweets)
-
-#192
-
-**Sun Jan 01 22:16:40 +0000 2023**
-
-RT @dayangelcp: 李承鹏最新文章：致2022一封信:这场战争输定了，因为我们敬礼敬得太好 | 文学城 https://t.co/uREyg2KY3R
-
-[Top](#Tweets)
 
 #193
 
@@ -1593,11 +1469,4 @@ RT @dayangelcp: 李承鹏最新文章：致2022一封信:这场战争输定了�
 
 [Top](#Tweets)
 
-#195
-
-**Mon Apr 03 07:40:10 +0000 2023**
-
-@_B___S 👍
-
-[Top](#Tweets)
 
