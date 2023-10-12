@@ -34,13 +34,28 @@ window.addEventListener('load', async () => {
             // 按钮点击事件：调用合约中的abc方法
             document.getElementById('call-contract-button').addEventListener('click', async () => {
                 try {
-                    // 调用合约中的abc方法
+                    // 调用合约中的需要用户的view方法
                     const result = await contract.methods.myNum().call({from: currentAccount});
                     console.log('myNum方法返回值：', result);
 
-
+                    // 调用不需要用户的view方法
                     const result2 = await contract.methods.getCoinBase().call();
                     console.log('getCoinBase方法返回值：', result2);
+
+                    // 调用需要参数，需要pay的方法
+                    const amount = 555;
+                    contract.methods.addNew(amount).send({ from: currentAccount, value: web3.utils.toWei('0.015', 'ether')})
+                    .on('transactionHash', function(hash) {
+                        console.log('transactionHash', hash);
+                    })
+                    .on('receipt', function(receipt){
+                        console.log('receipt', receipt);
+                    })
+                    .on('confirmation', function(confirmationNumber, receipt) {
+                        console.log('confirmation', confirmationNumber, receipt);
+                    })
+                    .on('error', console.error);
+                    
                 } catch (error) {
                     console.error('调用合约方法时出错：', error);
                 }
