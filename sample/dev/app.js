@@ -192,7 +192,11 @@ window.addEventListener('load', async () => {
                 try {
                     // 调用合约中的abc方法
                     const result = await contract.methods.myNum().call();
-                    console.log('方法返回值：', result);
+                    console.log('myNum方法返回值：', result);
+
+
+                    const result2 = await contract.methods.getCoinBase().call();
+                    console.log('getCoinBase方法返回值：', result2);
                 } catch (error) {
                     console.error('调用合约方法时出错：', error);
                 }
