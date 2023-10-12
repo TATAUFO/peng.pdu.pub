@@ -191,7 +191,7 @@ window.addEventListener('load', async () => {
             document.getElementById('call-contract-button').addEventListener('click', async () => {
                 try {
                     // 调用合约中的abc方法
-                    const result = await contract.methods.myNum().call();
+                    const result = await contract.methods.myNum().call({from: currentAccount});
                     console.log('myNum方法返回值：', result);
 
 
