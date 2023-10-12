@@ -1,4 +1,4 @@
-import contractABI from './contract-abi.js';
+import { contractABI } from './contract-abi.js';
 
 window.addEventListener('load', async () => {
     // 检查是否存在 MetaMask

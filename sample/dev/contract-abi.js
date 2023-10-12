@@ -155,3 +155,5 @@ const contractABI = [
         "type": "function"
     }
 ];
+
+export { contractABI };
