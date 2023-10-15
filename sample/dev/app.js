@@ -31,8 +31,8 @@ window.addEventListener('load', async () => {
             await window.ethereum.enable();
 
             // 创建合约实例
-            const contractAddress = '0xfd924719744a1c26e891b745C60B25282DD139E8'; // 合约地址
-            const contractABI = [{"constant": false,"inputs": [   {    "name": "_amount",    "type": "uint256"   }  ],  "name": "addNew",  "outputs": [],  "payable": true,  "stateMutability": "payable",  "type": "function" }, {  "constant": false,  "inputs": [],  "name": "withdraw",  "outputs": [],  "payable": false,  "stateMutability": "nonpayable",  "type": "function" }, {  "constant": true,  "inputs": [],  "name": "getCoinBase",  "outputs": [   {    "name": "",    "type": "address"   }  ],  "payable": false,  "stateMutability": "view",  "type": "function" }, {  "constant": true,  "inputs": [   {    "name": "blockNumber",    "type": "uint256"   }  ],  "name": "getHash",  "outputs": [   {    "name": "",    "type": "bytes32"   }  ],  "payable": false,  "stateMutability": "view",  "type": "function" }, {  "constant": true,  "inputs": [   {    "name": "blockNumber",    "type": "uint256"   }  ],  "name": "getValueAtBlock",  "outputs": [   {    "name": "",    "type": "uint256"   }  ],  "payable": false,  "stateMutability": "view",  "type": "function" }, {  "constant": true,  "inputs": [],  "name": "million",  "outputs": [   {    "name": "",    "type": "uint256"   }  ],  "payable": false,  "stateMutability": "view",  "type": "function" }, {  "constant": true,  "inputs": [   {    "name": "",    "type": "address"   }  ],  "name": "myDep",  "outputs": [   {    "name": "",    "type": "uint256"   }  ],  "payable": false,  "stateMutability": "view",  "type": "function" }, {  "constant": true,  "inputs": [],  "name": "myNum",  "outputs": [   {    "name": "",    "type": "uint256"   }  ],  "payable": false,  "stateMutability": "view",  "type": "function" }, {  "constant": true,  "inputs": [],  "name": "myValue",  "outputs": [   {    "name": "",    "type": "uint256"   }  ],  "payable": false,  "stateMutability": "view",  "type": "function" }, {  "constant": true,  "inputs": [   {    "name": "",    "type": "address"   }  ],  "name": "num",  "outputs": [   {    "name": "",    "type": "uint256"   }  ],  "payable": false,  "stateMutability": "view",  "type": "function" }];
+            const contractAddress = '0x78A5379D8caEDaC0eD38cf0237e32Cc022294cfA'; // 合约地址
+            const contractABI = [{"constant": false,"inputs": [{"name": "_amount","type": "uint256"}],"name": "addNew","outputs": [],"payable": true,"stateMutability": "payable","type": "function"},{"constant": false,"inputs": [],"name": "withdraw","outputs": [],"payable": false,"stateMutability": "nonpayable","type": "function"},{"anonymous": false,"inputs": [{"indexed": true,"name": "user","type": "address"},{"indexed": false,"name": "amount","type": "uint256"}],"name": "ADD_NEW","type": "event"},{"constant": true,"inputs": [],"name": "getCoinBase","outputs": [{"name": "","type": "address"}],"payable": false,"stateMutability": "view","type": "function"},{"constant": true,"inputs": [{"name": "blockNumber","type": "uint256"}],"name": "getHash","outputs": [{"name": "","type": "bytes32"}],"payable": false,"stateMutability": "view","type": "function"},{"constant": true,"inputs": [{"name": "blockNumber","type": "uint256"}],"name": "getValueAtBlock","outputs": [{"name": "","type": "uint256"}],"payable": false,"stateMutability": "view","type": "function"},{"constant": true,"inputs": [],"name": "million","outputs": [{"name": "","type": "uint256"}],"payable": false,"stateMutability": "view","type": "function"},{"constant": true,"inputs": [{"name": "","type": "address"}],"name": "myDep","outputs": [{"name": "","type": "uint256"}],"payable": false,"stateMutability": "view","type": "function"},{"constant": true,"inputs": [],"name": "myNum","outputs": [{"name": "","type": "uint256"}],"payable": false,"stateMutability": "view","type": "function"},{"constant": true,"inputs": [],"name": "myValue","outputs": [{"name": "","type": "uint256"}],"payable": false,"stateMutability": "view","type": "function"},{"constant": true,"inputs": [{"name": "","type": "address"}],"name": "num","outputs": [{"name": "","type": "uint256"}],"payable": false,"stateMutability": "view","type": "function"}];
             const contract = new web3.eth.Contract(contractABI, contractAddress);
 
             // 监听MetaMask账户变化
@@ -73,10 +73,25 @@ window.addEventListener('load', async () => {
                     })
                     .on('receipt', function(receipt){
                         console.log('receipt', receipt);
+                        console.log('events', receipt.events);
+
+                        // 获取并显示事件，需要知道事件名称
+                        var events = receipt.events.ADD_NEW;
+                        if (Array.isArray(events) === false) {
+                            events = [events];
+                        }
+                        events.forEach(function(event) {
+                            // 此处可根据用户地址进行过滤
+                            const rv = event.returnValues;
+                            // console.log('detail', rv);
+                            console.log('user', rv.user);
+                            console.log('amount', rv.amount);
+                        });
+                        
                     })
-                    .on('confirmation', function(confirmationNumber, receipt) {
-                        console.log('confirmation', confirmationNumber, receipt);
-                    })
+                    // .on('confirmation', function(confirmationNumber, receipt) {
+                    //     console.log('confirmation', confirmationNumber, receipt);
+                    // })
                     .on('error', console.error);
 
                 } catch (error) {
