@@ -3,6 +3,29 @@ window.addEventListener('load', async () => {
     if (typeof window.ethereum !== 'undefined') {
         const web3 = new Web3(window.ethereum);
 
+        // 检验是否是MARO的网络
+        web3.eth.net.getId()
+            .then(networkId => {
+                if (networkId === 8848) {
+                    // 当前是MARO的主链
+                    console.log('current block chain is MARO mainnet');
+                } else {
+                    // TODO: 切换网络
+                    ethereum.request({
+                        "method": "wallet_switchEthereumChain",
+                        "params": [
+                          {
+                            "chainId": "0x2290"
+                          }
+                        ]
+                      });
+
+                }
+            })
+            .catch(error => {
+                console.error('unable to get chain Id', error);
+            });
+
         try {
             // 请求用户授权
             await window.ethereum.enable();
@@ -55,7 +78,7 @@ window.addEventListener('load', async () => {
                         console.log('confirmation', confirmationNumber, receipt);
                     })
                     .on('error', console.error);
-                    
+
                 } catch (error) {
                     console.error('调用合约方法时出错：', error);
                 }
