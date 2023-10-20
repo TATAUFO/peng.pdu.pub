@@ -528,6 +528,8 @@ const contractABI = [
 	}
 ];
 
+const avaliableSizeDisplay = document.getElementById('avaliableSizeDisplay');
+
 const resultDisplay = document.getElementById('resultDisplay');
 
 function updateResultDisplay(result) {
@@ -594,7 +596,7 @@ window.addEventListener('load', async () => {
                     // 调用不需要用户的view方法
                     const result = await contract.methods.avaliableSize().call();
                     console.log('avaliableSize方法返回值：', result);
-
+                    avaliableSizeDisplay.textContent = result;
                 } catch (error) {
                     console.error('调用合约方法时出错：', error);
                 }
