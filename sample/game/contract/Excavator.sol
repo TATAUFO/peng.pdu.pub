@@ -19,6 +19,8 @@ contract Excavator is PermissionGroups {
 
     mapping(address => Record[]) public recordMap;  // 记录列表
     mapping(address => uint) public recordNum;      // 用户记录次数
+    mapping(address => uint) public currentMine;     // 进行中的挖矿  address => blockNum
+    address[] public currentMiners;  // 进行中的用户  [address]
     
     uint public minDeposit = 10**decimals * 1;  // 单笔最小交易额度限制
     uint public maxDeposit = minDeposit * 100;  // 单笔最大交易额度限制
@@ -50,7 +52,9 @@ contract Excavator is PermissionGroups {
         // 必须要前一个结束，或者第一次玩
         if (recordNum[msg.sender] > 0 ){
             uint minerIndex = recordNum[msg.sender] - 1;
-            require(recordMap[msg.sender][minerIndex].finish);
+            if (!recordMap[msg.sender][minerIndex].finish) {
+                seal();
+            }
         }
 
         // 检验钱数，超过最小必须得值
@@ -80,17 +84,55 @@ contract Excavator is PermissionGroups {
         // 更新可用奖池
         avaliableSize = avaliableSize + msg.value - prize;
 
+        // 添加当前进行的mine
+        addCurrentMiner(msg.sender);
+
         M(totalNum, recordNum[msg.sender], msg.sender, 1, msg.value);
 
     }
+
+    function addCurrentMiner(address _addr) internal {
+        // 添加到总的记录当中
+        currentMine[_addr] = block.number;
+        currentMiners.push(_addr);
+    }
+
+    function delCurrentMiner(address _addr) internal {
+        // 从currentMine中删除
+        delete currentMine[_addr];
+        for (uint i = 0; i < currentMiners.length; i++) {
+            if (keccak256(currentMiners[i]) == keccak256(_addr)) {
+                for (uint j=i; j< currentMiners.length - 1; j++) {
+                    currentMiners[j] = currentMiners[j + 1];
+                }
+                currentMiners.length--;
+                break;
+            }
+        }
+    }
+
+    // 封装blockNumber在num之前的mine，以释放avaliable的奖池
+    function sealByAdmin(uint _blockNum, uint _startIndex) public onlyAdmin {
+        for (uint i = _startIndex; i < currentMiners.length; i++) {
+            if (currentMine[currentMiners[i]] < _blockNum) {
+                sealAction(currentMiners[i]);
+            }
+        }
+    }
+
 
     // seal 就是封装，用来得到结果的操作，获得奖金的
     function seal() public {
         require(!systemTermination);
         require(recordNum[msg.sender] > 0);
+        sealAction(msg.sender);
+    }
 
-        uint minerIndex = recordNum[msg.sender] - 1;
-        Record storage record = recordMap[msg.sender][minerIndex];
+    // 
+    function sealAction(address _addr) internal {
+
+        uint minerIndex = recordNum[_addr] - 1;
+        Record storage record = recordMap[_addr][minerIndex];
         require(!record.finish);
 
         uint hashNum = uint256(block.blockhash(record.blockNum));  // 注意在判定时候，要判断hashNum > 0
@@ -103,19 +145,21 @@ contract Excavator is PermissionGroups {
                 gas = minGas;
             }
             prize = prize - gas;
-            msg.sender.transfer(prize);
+            _addr.transfer(prize);
             poolSize = poolSize - prize;
             avaliableSize = avaliableSize + gas;
-            M(totalNum, recordNum[msg.sender], msg.sender, 2, prize);
+            M(totalNum, recordNum[_addr], _addr, 2, prize);
         } else {
             avaliableSize = avaliableSize + prize;
 
-            M(totalNum, recordNum[msg.sender], msg.sender, 2, 0);
+            M(totalNum, recordNum[_addr], _addr, 2, 0);
         }
 
         record.result = remainder;
         record.finish = true;
-        recordMap[msg.sender][minerIndex] = record;
+        recordMap[_addr][minerIndex] = record;
+
+        delCurrentMiner(_addr);
 
     }
 
