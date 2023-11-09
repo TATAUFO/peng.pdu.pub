@@ -15,6 +15,7 @@ contract Excavator is PermissionGroups {
         uint remainder;
         uint blockNum;
         bool finish;
+        uint prize;
     }
 
     mapping(address => Record[]) public recordMap;  // 记录列表
@@ -76,19 +77,32 @@ contract Excavator is PermissionGroups {
             divisor: _divisor,
             remainder: _remainder,
             blockNum: block.number,
-            finish: false
+            finish: false,
+            prize: 0
         }));
 
         // 增加奖池总量
         poolSize = poolSize + msg.value;
         // 更新可用奖池
-        avaliableSize = avaliableSize + msg.value - prize;
+        avaliableSize = avaliableSize + msg.value;
+        avaliableSize = avaliableSize.sub(prize);
 
         // 添加当前进行的mine
         addCurrentMiner(msg.sender);
 
         M(totalNum, recordNum[msg.sender], msg.sender, 1, msg.value);
 
+    }
+
+    function getRecords(address _addr, uint256 _fromIndex, uint256 _toIndex) public view returns(Record[]){
+        uint256 _size =  _toIndex.sub(_fromIndex);
+        Record[] memory _records = new Record[](_size);
+        uint256 _rIndex = 0;
+        for(uint i= _fromIndex; i< _toIndex; i++){
+             _records[_rIndex] = recordMap[_addr][i];
+             _rIndex++;
+        }
+        return _records;
     }
 
     function addCurrentMiner(address _addr) internal {
@@ -144,14 +158,14 @@ contract Excavator is PermissionGroups {
             if (gas < minGas) {
                 gas = minGas;
             }
-            prize = prize - gas;
+            prize = prize.sub(gas);
             _addr.transfer(prize);
-            poolSize = poolSize - prize;
-            avaliableSize = avaliableSize + gas;
+            poolSize = poolSize.sub(prize);
+            avaliableSize = avaliableSize.add(gas);
+            record.prize = prize;
             M(totalNum, recordNum[_addr], _addr, 2, prize);
         } else {
-            avaliableSize = avaliableSize + prize;
-
+            avaliableSize = avaliableSize.add(prize);
             M(totalNum, recordNum[_addr], _addr, 2, 0);
         }
 
@@ -162,8 +176,6 @@ contract Excavator is PermissionGroups {
         delCurrentMiner(_addr);
 
     }
-
-    // 管理员操作的方法 ----------------
 
     // 设定大部分参数
     function Excavator() public{
@@ -193,10 +205,12 @@ contract Excavator is PermissionGroups {
     }
     function resetMinDeposit(uint v) public onlyAdmin {
         minDeposit = 10**decimals * v;
+        require(minDeposit > minGas && minDeposit <= maxDeposit);
     }
 
     function resetMaxDeposit(uint v) public onlyAdmin {
         maxDeposit = 10**decimals * v;
+        require(maxDeposit >= minDeposit);
     }
 
     function resetMaxDepositPercentage(uint v) public onlyAdmin {
@@ -211,10 +225,11 @@ contract Excavator is PermissionGroups {
 
     function resetMinGas(uint v) public onlyAdmin {
         minGas = 10**decimals * v;
+        require(minGas < minDeposit);
     }
 
     function resetStdGasPercentage(uint v) public onlyAdmin {
-        require(v > 0 && v <= 100);
+        require(v >= 0 && v <= 100);
         stdGasPercentage = v;
     }
 
