@@ -23,6 +23,7 @@ layout: default
 ## [215. 族群认定的转变](./diary/215.md)
 
 PDU最近的进展停滞主要是由于我试图将对于族群的定义规则由创建者的初始定义，变为信息获取者的自我认定。
+
 - [全部笔记](./docs/zh/Draft.html)
 - [旧笔记X](./docs/zh/Tweets.md)
 

@@ -3,11 +3,11 @@ import re
 
 def main():
     # 创建一个目录来存放生成的文件
-    if not os.path.exists('diary'):
-        os.makedirs('diary')
+    if not os.path.exists('docs/zh/diary'):
+        os.makedirs('docs/zh/diary')
 
     # 读取Draft.md文件
-    with open('Draft.md', 'r', encoding='utf-8') as file:
+    with open('docs/zh/Draft.md', 'r', encoding='utf-8') as file:
         content = file.read()
 
     # 使用正则表达式找到以## 数字开头，并以 [Top](#笔记)结尾的结构
@@ -51,7 +51,7 @@ def main():
             text = f"# {title}\n\n{text}{end_links}"
 
         # 创建对应数字的.md文件并写入内容
-        with open(f'diary/{number}.md', 'w', encoding='utf-8') as file:
+        with open(f'docs/zh/diary/{number}.md', 'w', encoding='utf-8') as file:
             file.write(text)
 
         # 获取每篇文章的第一个段落
@@ -61,8 +61,8 @@ def main():
 
     # 在 index.md 文件中添加最大5个数字对应的链接以及对应文件中的第一个段落
     index_content = ""
-    if os.path.exists('../../index.md'):
-        with open('../../index.md', 'r', encoding='utf-8') as file:
+    if os.path.exists('index.md'):
+        with open('index.md', 'r', encoding='utf-8') as file:
             index_content = file.read()
 
 
@@ -75,12 +75,12 @@ def main():
             title = directory_map.get(number)
             draft_content += f"\n\n## [{title}](./diary/{number}.md)\n\n{file_paragraphs[number]}"
 
-        draft_content += "\n- [全部笔记](./docs/zh/Draft.html)"
+        draft_content += "\n\n- [全部笔记](./docs/zh/Draft.html)"
         # 清理内容
         cleaned_index_content = re.sub(r'# \[去中心化&PDU笔记\]\(.*?\)(.*?)\- \[全部笔记\]\(.*?\)', draft_content, index_content, flags=re.DOTALL)
         
         # 写入到 index.md 文件中
-        with open('../../index.md', 'w', encoding='utf-8') as file:
+        with open('index.md', 'w', encoding='utf-8') as file:
             file.write(cleaned_index_content.strip())
 if __name__ == "__main__":
     main()
