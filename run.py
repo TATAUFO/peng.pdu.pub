@@ -43,7 +43,7 @@ def main():
         next_link = f"[{next_title}]({next_number}.md)" if next_title else ''
 
         # 构建结尾链接
-        end_links = f"\n\n[Previous: {prev_link}] | [Draft: {draft_link}] | [Next: {next_link}]"
+        end_links = f"\n\nPrevious: {prev_link} | {draft_link} | Next: {next_link}"
 
         # 如果标题内容存在于目录中，则将其添加到相应的数字.md文件中
         title = directory_map.get(number)
