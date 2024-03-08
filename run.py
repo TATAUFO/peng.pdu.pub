@@ -48,7 +48,7 @@ def main():
         # 如果标题内容存在于目录中，则将其添加到相应的数字.md文件中
         title = directory_map.get(number)
         if title:
-            text = f"# {title}\n\n{text}{end_links}"
+            text = f"---\nlayout: default\n---\n# {title}\n\n{text}{end_links}"
 
         # 创建对应数字的.md文件并写入内容
         with open(f'docs/zh/diary/{number}.md', 'w', encoding='utf-8') as file:
@@ -73,7 +73,7 @@ def main():
         draft_content = "# [去中心化&PDU笔记](./docs/zh/Draft.html)"
         for number in sorted_numbers:
             title = directory_map.get(number)
-            draft_content += f"\n\n## [{title}](./diary/{number}.md)\n\n{file_paragraphs[number]}"
+            draft_content += f"\n\n## [{title}](./docs/zh/diary/{number}.md)\n\n{file_paragraphs[number]}"
 
         draft_content += "\n\n- [全部笔记](./docs/zh/Draft.html)"
         # 清理内容
