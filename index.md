@@ -4,6 +4,10 @@ layout: default
 
 # [去中心化&PDU笔记](./docs/zh/Draft.html)
 
+## [222. 人工智能的利用](./docs/zh/diary/222.md)
+
+人工智能能够极大的提高工作效率，但应有一个明确的限制。
+
 ## [221. PDU的再次简化](./docs/zh/diary/221.md)
 
 关于PDU的再次简化。
@@ -19,10 +23,6 @@ layout: default
 ## [218. 面对波动思维一致性](./docs/zh/diary/218.md)
 
 认知波动的关键不止在于相信波动是事物的存在形式，还在于清晰当前所需面对的究竟是哪个波动。
-
-## [217. 光速旅行](./docs/zh/diary/217.md)
-
-根据人类的感知，光是速度最快的，也只有光才能达到光速。
 
 - [全部笔记](./docs/zh/Draft.html)
 - [旧笔记X](./docs/zh/Tweets.md)
