@@ -4,6 +4,10 @@ layout: default
 
 # [去中心化&PDU笔记](./docs/zh/Draft.html)
 
+## [224. 改变时间](./docs/zh/diary/224.md)
+
+突发奇想，在科幻故事中怎样改变时间流速。
+
 ## [223. 多样性与统一的区别根源](./docs/zh/diary/223.md)
 
 个体的多样性是否利于群体的存在？
@@ -19,10 +23,6 @@ layout: default
 ## [220. 中本聪的离开](./docs/zh/diary/220.md)
 
 对于比特币来说最重要的一件事情是什么？
-
-## [219. 没代币的区块链等于数据库](./docs/zh/diary/219.md)
-
-并非用了区块链，记录就不可更改，没有利益的绑定，无论什么技术，都可以随便改。
 
 - [全部笔记](./docs/zh/Draft.html)
 - [旧笔记X](./docs/zh/Tweets.md)
