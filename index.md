@@ -4,6 +4,10 @@ layout: default
 
 # [去中心化&PDU笔记](./docs/zh/Draft.html)
 
+## [224. 哲学与科学](./docs/zh/diary/225.md)
+
+哲学是智能对于世界的猜测，而科学是智能对于世界的认知。
+
 ## [224. 改变时间](./docs/zh/diary/224.md)
 
 突发奇想，在科幻故事中怎样改变时间流速。
@@ -19,10 +23,6 @@ layout: default
 ## [221. PDU的再次简化](./docs/zh/diary/221.md)
 
 关于PDU的再次简化。
-
-## [220. 中本聪的离开](./docs/zh/diary/220.md)
-
-对于比特币来说最重要的一件事情是什么？
 
 - [全部笔记](./docs/zh/Draft.html)
 - [旧笔记X](./docs/zh/Tweets.md)
