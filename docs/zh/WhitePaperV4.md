@@ -153,7 +153,9 @@ Twitter用户的平均关注人数为707个地址，而关注最多的Justin Bie
 在去中心化系统中，信息可以自由发布的前提下，我们依赖用户自身的选择来减少无意义信息的传播。对于其他过激言论，如暴力、色情、煽动仇恨等，违反地方法规的内容，应交由地方处理，而不是该系统的职责。这就像比特币系统解决了双重支付问题，但不能解决洗钱问题一样。
 
 
+https://blog.hootsuite.com/twitter-statistics/ 关于推特的一些统计
 
+https://x.com/justinbieber following最多 273.6K Justin Bieber
 
 
 
