@@ -20,6 +20,8 @@ PDU Protocol: A Peer-to-Peer Social Netwrok Service
 
 基于区块链的社交平台（如Steemit[^4]和Minds[^5]）采用了一定数量的代币作为创建或激活账户的成本，同时利用代币激励用户的社交行为。尽管这种方法增加了创建账户的成本，但与中心化平台基于身份认证的方式不同。这种方式无法有效避免虚假账户的泛滥，并对经济能力较弱的用户产生不公平限制，从而降低了用户群体的多样性和包容性。
 
+社交软件Bluesky采用邀请制结合现有用户验证的方式来增加新用户的可信度[^6]，这种方法有效控制了新用户的增长速度，防止了恶意注册和虚假账户的泛滥。然而，这种方式也阻碍了更广泛用户群体的参与。对于不认识现有用户的人来说，加入平台变得极为困难。此外，早期用户对社区文化和规则具有较大的影响力，这可能导致社区文化的单一性，难以吸引多元化的用户群体。
+
 本文提出了一种全新的点对点社交网络系统，该系统不依赖任何第三方服务。任何具有相同私钥签名且具有全序关系的消息序列都被系统认定为合法的发布者身份，从而保证信息的不可篡改性，并能够更加公正地评判发布者身份。通过消息之间的互动，发布者身份之间能够形成公开的关联关系，我们将其视为用户之间的信任关系。任何使用者都可以根据这种关联关系，按自定义规则维护可见的发布者身份集合，并在此范围内以发布者的身份为标识，对信息进行有效过滤。
 
 ## 消息
@@ -120,8 +122,9 @@ PDU Protocol: A Peer-to-Peer Social Netwrok Service
 基于该系统，可以轻松移植现有的主流区块链共识机制。由于系统中具备身份创建成本，可以简化一些需要质押限制的共识机制的实现。这种设计不仅提升了系统的安全性和稳定性，还优化了用户体验，使去中心化社交网络更具可行性和吸引力。
 
 ## 参考文献
-[^1]: Islam Habis Mohammad Hatamleh / 2023 / Trust in Social Media: Enhancing Social Relationships
+[^1]: Islam Habis Mohammad Hatamleh / 2023 / Trust in Social Media: Enhancing Social Relationships / https://www.mdpi.com/2076-0760/12/7/416
 [^2]: https://joinmastodon.org/
 [^3]: https://docs.joinmastodon.org/#federation
 [^4]: https://steemit.com/
 [^5]: https://www.minds.com/
+[^6]: Martin Kleppmann / 2024-2 / Bluesky and the AT Protocol: Usable Decentralized Social Media /https://arxiv.org/pdf/2402.03239
