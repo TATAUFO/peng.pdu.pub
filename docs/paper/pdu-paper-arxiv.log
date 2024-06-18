@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.13)  17 JUN 2024 21:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.13)  18 JUN 2024 12:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -977,8 +977,13 @@ lat-forms, such as Mastodon [[]]
 
 
 
+<MsgLink.jpeg, id=60, 1927.2pt x 1084.05pt>
+File: MsgLink.jpeg Graphic file (type jpg)
+<use MsgLink.jpeg>
+Package pdftex.def Info: MsgLink.jpeg  used on input line 36.
+(pdftex.def)             Requested size: 241.14749pt x 135.63824pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Class acmart Warning: A possible image without description on input line 39.
 
 
 
@@ -986,7 +991,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 /local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/
 local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}
 
-{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}]
+{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc} 
+<./MsgLink.jpeg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 
@@ -995,38 +1003,39 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 70.
+(Font)              scaled to size 6.0pt on input line 71.
 [2.2]
-Overfull \hbox (4.08528pt too wide) in paragraph at lines 77--78
+Overfull \hbox (4.08528pt too wide) in paragraph at lines 84--85
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) their con-tent is more likely to in-ter-act
  with other pub-lish-ers. Through
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-
-Overfull \hbox (12.96606pt too wide) in paragraph at lines 89--90
+Overfull \hbox (12.96606pt too wide) in paragraph at lines 96--97
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) higher-level pub-lisher com-posed of mul-ti
 -ple pub-lish-ers. The blockchain,
  []
 
 
-Overfull \hbox (2.222pt too wide) in paragraph at lines 105--106
+
+[3.3]
+Overfull \hbox (2.222pt too wide) in paragraph at lines 112--113
 []\T1/LinuxLibertineT-TLF/m/n/9 (-20) Provides mes-sage re-trieval in-ter-faces
 
  []
 
 
-Underfull \vbox (badness 5533) has occurred while \output is active []
+
+
+Class acmart Warning: Some images may lack descriptions.
 
 
 
-[3.3]
 
-
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
 
 (/usr/local/texlive/2024/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
@@ -1041,34 +1050,37 @@ L3 programming layer <2024-05-27>
  ***********
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package rerunfilecheck Warning: File `pdu-paper-arxiv.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `pdu-paper-arxiv.out':
-(rerunfilecheck)             Before: 3A595FF617ED197F711168DE261411EF;1326
-(rerunfilecheck)             After:  4D80B968F009082E8F3E5121D32B4156;1326.
+(rerunfilecheck)             Before: E68FFB800A9B8BF22D41C441FC7CF32E;1508
+(rerunfilecheck)             After:  3A595FF617ED197F711168DE261411EF;1326.
  ) 
 Here is how much of TeX's memory you used:
- 20670 strings out of 473600
- 330088 string characters out of 5728702
- 1957905 words of memory out of 5000000
- 42823 multiletter control sequences out of 15000+600000
- 642000 words of font info for 205 fonts, out of 8000000 for 9000
+ 20692 strings out of 473600
+ 330531 string characters out of 5728702
+ 1954905 words of memory out of 5000000
+ 42838 multiletter control sequences out of 15000+600000
+ 642538 words of font info for 209 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 85i,11n,131p,1249b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,11n,131p,1249b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{section*.5} has been referenced but does not exist,
+pdfTeX warning (dest): name{section.11} has been referenced but does not exist,
  replaced by a fixed one
 
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinLiberti
 neT.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinLib
 ertineTB.pfb>
-Output written on pdu-paper-arxiv.pdf (4 pages, 270382 bytes).
+Output written on pdu-paper-arxiv.pdf (4 pages, 520859 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 43121 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 22 named destinations out of 1000 (max. 500000)
+ 43134 words of extra memory for PDF output out of 51595 (max. 10000000)
 
