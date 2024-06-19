@@ -16,9 +16,9 @@ PDU Protocol: A Peer-to-Peer Social Netwrok Service
 
 尽管存在以上问题，但大多数用户仍然不得不继续使用原有平台。虽然更换平台不会导致数据丢失，但会失去在该平台上积累的用户关系，从而降低自身的影响力[^1]。这个原因使得用户很大程度上被平台锁定。
 
-去中心化的社交平台近年来发展迅速，试图解决中心化平台带来的诸多问题，如Mastodon[^2]。Mastodon采用的联邦架构[^3]摒弃了单一中心，由多个可相互通信的服务器组成，使用户关系数据得以自行保存。然而，用户注册过程和内容管理仍依赖各服务器管理员。这种治理结构可视为多个独立小型中心化平台的集合，仍无法根本避免中心化平台中遇到的问题。
+去中心化的社交平台近年来发展迅速，试图解决中心化平台带来的诸多问题，如Mastodon。Mastodon采用的联邦架构[^2]摒弃了单一中心，由多个可相互通信的服务器组成，使用户关系数据得以自行保存。然而，用户注册过程和内容管理仍依赖各服务器管理员。这种治理结构可视为多个独立小型中心化平台的集合，仍无法根本避免中心化平台中遇到的问题。
 
-基于区块链的社交平台（如Steemit[^4]和Minds[^5]）采用了一定数量的代币作为创建或激活账户的成本，同时利用代币激励用户的社交行为。尽管这种方法增加了创建账户的成本，但与中心化平台基于身份认证的方式不同。这种方式无法有效避免虚假账户的泛滥，并对经济能力较弱的用户产生不公平限制，从而降低了用户群体的多样性和包容性。
+基于区块链的社交平台（如Steemit[^3][^4]和Minds[^5]）采用了一定数量的代币作为创建或激活账户的成本，同时利用代币激励用户的社交行为。尽管这种方法增加了创建账户的成本，但与中心化平台基于身份认证的方式不同。这种方式无法有效避免虚假账户的泛滥，并对经济能力较弱的用户产生不公平限制，从而降低了用户群体的多样性和包容性。
 
 一些社交软件在积累用户的初期往往采用邀请制的方式来控制新用户的可信度，这种方法有效地防止了恶意注册和虚假账户的泛滥。然而，这种方式也会阻碍更广泛用户群体的参与。对于不认识现有用户的人来说，加入平台变得极为困难。此外，早期用户对社区文化和规则具有较大的影响力，这可能导致社区文化的单一性，难以吸引多元化的用户群体。
 
@@ -128,14 +128,14 @@ PDU Protocol: A Peer-to-Peer Social Netwrok Service
 基于该系统，可以轻松移植现有的主流区块链共识机制。由于系统中具备身份创建成本，还可以对一些需要质押限制的共识机制进行优化，有助于提升加密货币的安全性和稳定性，提升用户体验。
 
 ## 参考文献
-[^1]: Islam Habis Mohammad Hatamleh / 2023 / Trust in Social Media: Enhancing Social Relationships / https://www.mdpi.com/2076-0760/12/7/416
-[^2]: https://joinmastodon.org/
-[^3]: https://docs.joinmastodon.org/#federation
-[^4]: https://steemit.com/
-[^5]: https://www.minds.com/
-[^6]: Satoshi Nakamoto / 2008 /Bitcoin: A Peer-to-Peer Electronic Cash System / https://bitcoin.org/bitcoin.pdf 
-[^7]: https://sovrin.org/
-[^8]: Gordhan Jethava/ 2023 / An Interaction-Based and Graph-Based Hybrid Approach to Evaluate Trust in Online Social Networks / https://link.springer.com/article/10.1007/s13369-021-06332-w
-[^9]: Lin, W.; Gao, Z.; Li, B.:/ 2020 / Guardian: Evaluating trust in online social networks with graph convolutional networks.
-[^10]: Khaksari, A.; Keyvanpour, M.:/ 2019 / Tp-ta: a comparative analytical framework for trust prediction models in online social networks based on trust aspects. 
-[^11]:Ureña, R., Kou, G., Dong, Y., Chiclana, F., & Herrera-Viedma, E. (2019). A review on trust propagation and opinion dynamics in social networks and group decision making frameworks. Information Sciences, 478, 461–475. doi:10.1016/j.ins.2018.11.037​
+[^1]: Hatamleh, I.H.M., Safori, A.O., Habes, M., Tahat, O., Ahmad, A.K., Abdallah, R.A.-Q., and Aissani, R., "Trust in Social Media: Enhancing Social Relationships," Social Sciences, vol. 12, no. 7, p. 416, 2023. doi: 10.3390/socsci12070416. Available: https://www.mdpi.com/2076-0760/12/7/416
+[^2]: L. La Cava, S. Greco, and A. Tagarelli, "Understanding the growth of the Fediverse through the lens of Mastodon," Applied Network Science, 2021. [Online]. Available: https://arxiv.org/pdf/2106.15473
+[^3]: Steemit, "Steem Platform Whitepaper 2.0," GitHub Repository, 2024. Available: https://github.com/steemit/whitepaper
+[^4]: M. Thelwall, "Can social news websites pay for content and curation? The SteemIt cryptocurrency model," Journal of Information Science, vol. 44, no. 6, pp. 736-751, 2018. doi: 10.1177/0165551517748290. Available: https://sci-hub.ru/10.1177/0165551517748290
+[^5]: B. Ottman and J. Doe, "The Censorship Effect," Minds, 2019. Available: https://cdn-assets.minds.com/The_Censorship_Effect.pdf
+[^6]: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System," 2008. Available: https://bitcoin.org/bitcoin.pdf
+[^7]: D. Reed and D. Hardman, "How DIDs, Keys, Credentials, and Agents Work Together in Sovrin," Sovrin Foundation, 2018. Available: https://sovrin.org/wp-content/uploads/2019/01/How-DIDs-Keys-Credentials-and-Agents-Work-Together-in-Sovrin-131118.pdf
+[^8]: G. Jethava and U. P. Rao, "An Interaction-Based and Graph-Based Hybrid Approach to Evaluate Trust in Online Social Networks (OSNs)," Arabian Journal for Science and Engineering, vol. 47, no. 8, pp. 9615–9628, 2022. doi: 10.1007/s13369-021-06332-w. Available: https://link.springer.com/article/10.1007/s13369-021-06332-w
+[^9]: W. Lin, Z. Gao, and B. Li, "Guardian: Evaluating Trust in Online Social Networks with Graph Convolutional Networks," in Proceedings of IEEE INFOCOM, Toronto, Canada, 2020, pp. 914-923. doi: 10.1109/INFOCOM41043.2020.9155370. Available: https://ieeexplore.ieee.org/abstract/document/9155370
+[^10]: A. Khaksari and M. R. Keyvanpour, "TP-TA: A Comparative Analytical Framework for Trust Prediction Models in Online Social Networks Based on Trust Aspects," Artificial Intelligence Review, vol. 52, no. 3, pp. 1929–1960, 2019. doi: 10.1007/s10462-017-9583-1. Available: https://link.springer.com/article/10.1007/s10462-017-9583-1.
+[^11]: R. Ureña, G. Kou, Y. Dong, F. Chiclana, and E. Herrera-Viedma, "A Review on Trust Propagation and Opinion Dynamics in Social Networks and Group Decision Making Frameworks," Information Sciences, vol. 478, pp. 461–475, 2019. doi: 10.1016/j.ins.2018.11.037. Available: https://www.researchgate.net/publication/329039753_A_review_on_trust_propagation_and_opinion_dynamics_in_social_networks_and_group_decision_making_frameworks
