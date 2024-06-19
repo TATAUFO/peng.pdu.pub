@@ -129,13 +129,23 @@ PDU Protocol: A Peer-to-Peer Social Netwrok Service
 
 ## 参考文献
 [^1]: Hatamleh, I.H.M., Safori, A.O., Habes, M., Tahat, O., Ahmad, A.K., Abdallah, R.A.-Q., and Aissani, R., "Trust in Social Media: Enhancing Social Relationships," Social Sciences, vol. 12, no. 7, p. 416, 2023. doi: 10.3390/socsci12070416. Available: https://www.mdpi.com/2076-0760/12/7/416
+
 [^2]: L. La Cava, S. Greco, and A. Tagarelli, "Understanding the growth of the Fediverse through the lens of Mastodon," Applied Network Science, 2021. [Online]. Available: https://arxiv.org/pdf/2106.15473
+
 [^3]: Steemit, "Steem Platform Whitepaper 2.0," GitHub Repository, 2024. Available: https://github.com/steemit/whitepaper
+
 [^4]: M. Thelwall, "Can social news websites pay for content and curation? The SteemIt cryptocurrency model," Journal of Information Science, vol. 44, no. 6, pp. 736-751, 2018. doi: 10.1177/0165551517748290. Available: https://sci-hub.ru/10.1177/0165551517748290
+
 [^5]: B. Ottman and J. Doe, "The Censorship Effect," Minds, 2019. Available: https://cdn-assets.minds.com/The_Censorship_Effect.pdf
+
 [^6]: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System," 2008. Available: https://bitcoin.org/bitcoin.pdf
+
 [^7]: D. Reed and D. Hardman, "How DIDs, Keys, Credentials, and Agents Work Together in Sovrin," Sovrin Foundation, 2018. Available: https://sovrin.org/wp-content/uploads/2019/01/How-DIDs-Keys-Credentials-and-Agents-Work-Together-in-Sovrin-131118.pdf
+
 [^8]: G. Jethava and U. P. Rao, "An Interaction-Based and Graph-Based Hybrid Approach to Evaluate Trust in Online Social Networks (OSNs)," Arabian Journal for Science and Engineering, vol. 47, no. 8, pp. 9615–9628, 2022. doi: 10.1007/s13369-021-06332-w. Available: https://link.springer.com/article/10.1007/s13369-021-06332-w
+
 [^9]: W. Lin, Z. Gao, and B. Li, "Guardian: Evaluating Trust in Online Social Networks with Graph Convolutional Networks," in Proceedings of IEEE INFOCOM, Toronto, Canada, 2020, pp. 914-923. doi: 10.1109/INFOCOM41043.2020.9155370. Available: https://ieeexplore.ieee.org/abstract/document/9155370
+
 [^10]: A. Khaksari and M. R. Keyvanpour, "TP-TA: A Comparative Analytical Framework for Trust Prediction Models in Online Social Networks Based on Trust Aspects," Artificial Intelligence Review, vol. 52, no. 3, pp. 1929–1960, 2019. doi: 10.1007/s10462-017-9583-1. Available: https://link.springer.com/article/10.1007/s10462-017-9583-1.
+
 [^11]: R. Ureña, G. Kou, Y. Dong, F. Chiclana, and E. Herrera-Viedma, "A Review on Trust Propagation and Opinion Dynamics in Social Networks and Group Decision Making Frameworks," Information Sciences, vol. 478, pp. 461–475, 2019. doi: 10.1016/j.ins.2018.11.037. Available: https://www.researchgate.net/publication/329039753_A_review_on_trust_propagation_and_opinion_dynamics_in_social_networks_and_group_decision_making_frameworks
