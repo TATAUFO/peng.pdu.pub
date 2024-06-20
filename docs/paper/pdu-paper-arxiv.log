@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.13)  20 JUN 2024 12:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.13)  20 JUN 2024 12:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -970,20 +970,23 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 15.
 
-Overfull \hbox (8.86847pt too wide) in paragraph at lines 24--25
-[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) There are some de-cen-tral-ized so-cial p
-lat-forms, such as Mastodon [[]]
+Overfull \hbox (8.20001pt too wide) in paragraph at lines 26--27
+[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) Blockchain-based so-cial plat-forms like 
+Steemit [[]] [[]] and Minds [[]]
  []
 
 
+Underfull \vbox (badness 1552) has occurred while \output is active []
 
-<MsgLink.jpeg, id=56, 1927.2pt x 1084.05pt>
-File: MsgLink.jpeg Graphic file (type jpg)
-<use MsgLink.jpeg>
-Package pdftex.def Info: MsgLink.jpeg  used on input line 36.
+
+
+<message-structure.png, id=60, 1927.2pt x 1084.05pt>
+File: message-structure.png Graphic file (type png)
+<use message-structure.png>
+Package pdftex.def Info: message-structure.png  used on input line 39.
 (pdftex.def)             Requested size: 241.14749pt x 135.63824pt.
 
-Class acmart Warning: A possible image without description on input line 39.
+Class acmart Warning: A possible image without description on input line 42.
 
 
 
@@ -992,7 +995,7 @@ Class acmart Warning: A possible image without description on input line 39.
 local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}
 
 {/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc} 
-<./MsgLink.jpeg>]
+<./message-structure.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1003,46 +1006,46 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 75.
+(Font)              scaled to size 6.0pt on input line 71.
 [2.2]
-Overfull \hbox (4.08528pt too wide) in paragraph at lines 84--85
+Overfull \hbox (4.08528pt too wide) in paragraph at lines 86--87
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) their con-tent is more likely to in-ter-act
  with other pub-lish-ers. Through
  []
 
 
-Underfull \vbox (badness 3049) has occurred while \output is active []
 
 
-
-
-Overfull \hbox (12.96606pt too wide) in paragraph at lines 96--97
+Overfull \hbox (12.96606pt too wide) in paragraph at lines 98--99
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) higher-level pub-lisher com-posed of mul-ti
 -ple pub-lish-ers. The blockchain,
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [3.3]
-Overfull \hbox (2.222pt too wide) in paragraph at lines 112--113
+Overfull \hbox (2.222pt too wide) in paragraph at lines 114--115
 []\T1/LinuxLibertineT-TLF/m/n/9 (-20) Provides mes-sage re-trieval in-ter-faces
 
  []
 
 
 
-LaTeX Info: Redefining \tempurl on input line 209.
-LaTeX Info: Redefining \tempurl on input line 221.
-LaTeX Info: Redefining \tempurl on input line 233.
-LaTeX Info: Redefining \tempurl on input line 245.
-LaTeX Info: Redefining \tempurl on input line 257.
-LaTeX Info: Redefining \tempurl on input line 269.
-LaTeX Info: Redefining \tempurl on input line 281.
-LaTeX Info: Redefining \tempurl on input line 293.
-LaTeX Info: Redefining \tempurl on input line 305.
-LaTeX Info: Redefining \tempurl on input line 317.
+LaTeX Info: Redefining \tempurl on input line 211.
+LaTeX Info: Redefining \tempurl on input line 223.
+LaTeX Info: Redefining \tempurl on input line 235.
+LaTeX Info: Redefining \tempurl on input line 247.
+LaTeX Info: Redefining \tempurl on input line 259.
+LaTeX Info: Redefining \tempurl on input line 271.
+LaTeX Info: Redefining \tempurl on input line 283.
+LaTeX Info: Redefining \tempurl on input line 295.
+LaTeX Info: Redefining \tempurl on input line 307.
+LaTeX Info: Redefining \tempurl on input line 319.
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--320
+Underfull \hbox (badness 10000) in paragraph at lines 313--322
 \T1/LinuxLibertineT-TLF/m/n/7 (+20) 329039753 _ A _ review _ on _ trust _ propa
 gation _ and _ opinion _ dynamics _ in _
  []
@@ -1071,21 +1074,21 @@ Package rerunfilecheck Info: File `pdu-paper-arxiv.out' has not changed.
 (rerunfilecheck)             Checksum: 3A595FF617ED197F711168DE261411EF;1326.
  ) 
 Here is how much of TeX's memory you used:
- 20743 strings out of 473600
- 331526 string characters out of 5728702
+ 20737 strings out of 473600
+ 331436 string characters out of 5728702
  1953905 words of memory out of 5000000
  42867 multiletter control sequences out of 15000+600000
- 643745 words of font info for 218 fonts, out of 8000000 for 9000
+ 643207 words of font info for 214 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 85i,12n,131p,1121b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,11n,131p,1121b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinBiolinumT
 B.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinLiber
 tineT.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinL
 ibertineTB.pfb>
-Output written on pdu-paper-arxiv.pdf (4 pages, 527495 bytes).
+Output written on pdu-paper-arxiv.pdf (4 pages, 362960 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
+ 145 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  31 named destinations out of 1000 (max. 500000)
  43126 words of extra memory for PDF output out of 51595 (max. 10000000)
 
