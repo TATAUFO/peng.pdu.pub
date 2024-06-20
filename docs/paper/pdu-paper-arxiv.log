@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.13)  20 JUN 2024 12:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.13)  20 JUN 2024 12:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1013,7 +1013,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 76.
+(Font)              scaled to size 6.0pt on input line 74.
 [2.2 <./publisher_id.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1026,24 +1026,21 @@ Overfull \hbox (4.08528pt too wide) in paragraph at lines 95--96
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[3.3]
 Overfull \hbox (12.96606pt too wide) in paragraph at lines 107--108
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) higher-level pub-lisher com-posed of mul-ti
 -ple pub-lish-ers. The blockchain,
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[3.3]
 Overfull \hbox (2.222pt too wide) in paragraph at lines 123--124
 []\T1/LinuxLibertineT-TLF/m/n/9 (-20) Provides mes-sage re-trieval in-ter-faces
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -1055,6 +1052,9 @@ LaTeX Info: Redefining \tempurl on input line 268.
 LaTeX Info: Redefining \tempurl on input line 280.
 LaTeX Info: Redefining \tempurl on input line 292.
 LaTeX Info: Redefining \tempurl on input line 304.
+
+
+[4.4]
 LaTeX Info: Redefining \tempurl on input line 316.
 LaTeX Info: Redefining \tempurl on input line 328.
 
@@ -1069,15 +1069,13 @@ Class acmart Warning: Some images may lack descriptions.
 
 
 
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
 
 (/usr/local/texlive/2024/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 )
 (/usr/local/texlive/2024/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [4.4]
+) [5.5]
 (./pdu-paper-arxiv.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
@@ -1087,21 +1085,21 @@ Package rerunfilecheck Info: File `pdu-paper-arxiv.out' has not changed.
 (rerunfilecheck)             Checksum: 498363B19DBD00DB0A4B97898ACE2D5D;1326.
  ) 
 Here is how much of TeX's memory you used:
- 20749 strings out of 473600
- 331705 string characters out of 5728702
- 1954905 words of memory out of 5000000
+ 20750 strings out of 473600
+ 331714 string characters out of 5728702
+ 1953905 words of memory out of 5000000
  42875 multiletter control sequences out of 15000+600000
  643472 words of font info for 216 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 85i,11n,131p,1120b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,11n,131p,1157b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinBiolinumT
 B.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinLiber
 tineT.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinL
 ibertineTB.pfb>
-Output written on pdu-paper-arxiv.pdf (4 pages, 513017 bytes).
+Output written on pdu-paper-arxiv.pdf (5 pages, 514180 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 160 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
  43131 words of extra memory for PDF output out of 51595 (max. 10000000)
 
