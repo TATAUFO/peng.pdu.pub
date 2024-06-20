@@ -5,11 +5,11 @@
 
 \begin{document}
 \title{PDU Protocol: A Peer-to-Peer Social Netwrok Service}
-\author{Liu Peng}
+\author{Peng Liu}
 \email{liupeng@pdu.pub}
 
 \begin{abstract}
-   A completely peer-to-peer (P2P) social network system should allow users to freely publish information and effectively retrieve information without relying on any third-party services. However, if the system does not adopt centralized verification methods such as phone numbers or email addresses, it can lead to the creation of zero-cost, mass-produced fake accounts. This would render the system's reward and punishment mechanisms ineffective, causing legitimate content to be overwhelmed by spam, making the system unusable. This paper proposes a solution to the problem of spam proliferation in P2P networks without relying on any third-party user authentication services. The identity of the information publisher is defined by forming a complete sequence of messages signed by the same private key. Interactive behaviors such as forwarding, commenting, and liking include references to the target messages. These reference relationships establish associations between publishers. Based on these associations, users can establish a visible set of publisher identities according to custom rules. Within this relatively fixed scope, users can effectively filter information through identity-based rewards and punishments.
+   A fully peer-to-peer (P2P) social networking system should enable participants to freely publish and efficiently access information without relying on any third-party services. However, if the system does not employ centralized verification methods, such as phone numbers, allowing the cost-free creation of new accounts, it becomes susceptible to Sybil attacks. This vulnerability undermines the system’s reward and punishment mechanisms, inundates genuine content with spam, and renders the system unusable. This paper proposes a solution for constructing a P2P social network without relying on any third-party user authentication services. The scheme establishes a trusted publisher identity through a sequence of messages signed by the same private key. Interactions such as reposts, comments, and likes create associations between publishers. Based on these associations, participants can form a custom set of visible publisher identities. Within this relatively stable scope, an identity-based reward and punishment mechanism can be employed to effectively filter information.
 \end{abstract}
 
 \maketitle
