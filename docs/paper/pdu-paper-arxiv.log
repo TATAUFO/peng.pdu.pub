@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.13)  20 JUN 2024 12:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.13)  21 JUN 2024 22:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1088,7 +1088,7 @@ Here is how much of TeX's memory you used:
 B.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinLiber
 tineT.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/libertine/LinL
 ibertineTB.pfb>
-Output written on pdu-paper-arxiv.pdf (5 pages, 514028 bytes).
+Output written on pdu-paper-arxiv.pdf (5 pages, 514024 bytes).
 PDF statistics:
  160 PDF objects out of 1000 (max. 8388607)
  137 compressed objects within 2 object streams

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# PDU Protocol: A Peer-to-Peer Social Netwrok Service
+# PDU Protocol: A Peer-to-Peer Social Network Service
 * email: liupeng@pdu.pub
 
 **Abstract：** 
