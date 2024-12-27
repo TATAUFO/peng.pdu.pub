@@ -1,4 +1,9 @@
 /* 通用样式 */
+html {
+  font-size: 16px; /* 或其他你期望的基准字体大小 */
+  -webkit-text-size-adjust: 100%; /* 禁用字体缩放 */
+}
+
 body {
     margin: 0;
     font-family: 'Arial', sans-serif; /* 接近 X 平台风格 */
