@@ -1,6 +1,6 @@
 title: Peng's Notebook
 logo: /assets/img/logo.png
 description: Everything about ParaDigi Universe & Minimal Metaphysics
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-minimal
+theme: null
+markdown: kramdown
+permalink: /:title/
