@@ -39,6 +39,22 @@ AI只需要植入努力保证自身的存在这一个意识，AI就会成为生�
 
 [更新中...](./docs/zh/MinimalMetaphysics.md)
 
+# [比特币白皮书精读](./docs/zh/BTCWhitePaperVideo.md)
+
+<div class="video-container">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/pWBiMy2YaqQ" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+[更多视频...](./docs/zh/BTCWhitePaperVideo.md)
+
 # [P.D.U is on App Store](https://apps.apple.com/us/app/p-d-u/id6443928730)
 
 ### 下载地址 ： [https://apps.apple.com/us/app/p-d-u/id6443928730](https://apps.apple.com/us/app/p-d-u/id6443928730)
