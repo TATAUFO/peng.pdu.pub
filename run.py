@@ -70,12 +70,12 @@ def main():
         sorted_numbers = sorted(file_paragraphs.keys(), key=lambda x: int(x), reverse=True)[:5]
 
         # 添加链接和段落
-        draft_content = "# [去中心化&PDU笔记](./docs/zh/Draft.html)"
+        draft_content = "# [去中心化&PDU笔记](./docs/zh/Draft.md)"
         for number in sorted_numbers:
             title = directory_map.get(number)
             draft_content += f"\n\n## [{title}](./docs/zh/diary/{number}.md)\n\n{file_paragraphs[number]}"
 
-        draft_content += "\n\n- [全部笔记](./docs/zh/Draft.html)"
+        draft_content += "\n\n- [全部笔记](./docs/zh/Draft.md)"
         # 清理内容
         cleaned_index_content = re.sub(r'# \[去中心化&PDU笔记\]\(.*?\)(.*?)\- \[全部笔记\]\(.*?\)', draft_content, index_content, flags=re.DOTALL)
         
