@@ -184,6 +184,4 @@ A decentralized social networking service
 [go-pdu](https://github.com/pdupub/go-pdu)
 
 
-[back](../../)
-
-<a href="https://pdu.pub"><img height="32" align="right" src="https://peng.pdu.pub/assets/img/logo.png"></a>
+[Back Home](/)

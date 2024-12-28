@@ -165,7 +165,4 @@ A peer-to-peer social networking service
 * [go-pdu](https://github.com/pdupub/go-pdu)
 * [iOS App beta](https://testflight.apple.com/join/FqQGxhbn)
 
-
-[back](../../)
-
-<a href="https://pdu.pub"><img height="32" align="right" src="https://peng.pdu.pub/assets/img/logo.png"></a>
+[Back Home](/)
