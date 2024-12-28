@@ -28,6 +28,16 @@ body {
     text-decoration: underline;
   }
   
+  /* 图片样式 */
+  img {
+    display: block;
+    max-width: 100%; /* 图片宽度最大适应内容宽度 */
+    height: auto; /* 保持图片比例 */
+    margin: 10px auto; /* 图片与文字之间的上下间距 */
+    padding: 5px; /* 可选：为图片周围留白 */
+    border-radius: 5px; /* 可选：为图片添加圆角 */
+  }
+
   /* 页头和页脚 */
   header, footer {
     text-align: center;
@@ -51,4 +61,3 @@ body {
     margin-top: 20px;
     font-size: 1rem;
   }
-  
