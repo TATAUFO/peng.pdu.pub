@@ -289,6 +289,5 @@ layout: default
 
 > 一切善恶，对错都应归因于存在。
 
-[Back Home](../../)
+[Back Home](/)
 
-<a href="https://pdu.pub"><img height="32" align="right" src="https://peng.pdu.pub/assets/img/logo.png"></a>

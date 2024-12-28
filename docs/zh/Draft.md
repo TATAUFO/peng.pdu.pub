@@ -13,7 +13,7 @@ layout: default
 5. 段落的标题是抄写整理时补的，仅为方便我自己查找。
 
 
-[Back Home](../../)
+[Back Home](/)
 
 # Menu
 
@@ -3188,6 +3188,4 @@ AI只需要植入努力保证自身的存在这一个意识，AI就会成为生�
 
 ...
 
-[Back Home](../../)
-
-<a href="https://pdu.pub"><img height="32" align="right" src="https://peng.pdu.pub/assets/img/logo.png"></a>
+[Back Home](/)
