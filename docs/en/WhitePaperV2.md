@@ -6,10 +6,6 @@ layout: default
 
 * iOS App: [https://apps.apple.com/us/app/p-d-u/id6443928730](https://apps.apple.com/us/app/p-d-u/id6443928730)
 * github: [github.com/pdupub](https://github.com/pdupub)
-* email: pdupub@gmail.com
-* telegram: [@PDUPUB](https://t.me/pdupub)
-* telegram group: [@PDUGroup](https://t.me/pdugroup)
-* wechat: pengpengt00
 * twitter: [@PDUPUB](https://twitter.com/pdupub)
 
 
@@ -186,6 +182,4 @@ Different from the mainstream idea of protecting user privacy, we believe that a
 3. Implementation of PDU by golang - [go-pdu](https://github.com/pdupub/go-pdu)
 
 
-[back](../../)
-
-<a href="https://pdu.pub"><img height="32" align="right" src="https://peng.pdu.pub/assets/img/logo.png"></a>
+[Back Home](/)

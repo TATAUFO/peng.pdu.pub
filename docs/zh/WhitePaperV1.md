@@ -6,7 +6,6 @@ layout: default
 Parallel Digital Universe - A decentralized identity-based social network
 
 * email: pdupub@gmail.com
-* wechat: pengpengt00
 * twitter: [@PDUPUB](https://twitter.com/pdupub)
 
 

@@ -4,8 +4,7 @@ layout: default
 # Minimal Metaphysics
 客观世界，主观时间 - 构建元宇宙（去中心化网络系统）的哲学基础
 
-* website: [https://pdu.pub](https://pdu.pub)
-* wechat: pengpengt00
+* website: [https://peng.pdu.pub](https://peng.pdu.pub)
 * twitter: [@PDUPUB](https://twitter.com/pdupub)
 
 

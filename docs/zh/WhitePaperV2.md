@@ -7,10 +7,6 @@ A decentralized social networking service
 
 * iOS App: [https://apps.apple.com/us/app/p-d-u/id6443928730](https://apps.apple.com/us/app/p-d-u/id6443928730)
 * github: [github.com/pdupub](https://github.com/pdupub)
-* email: pdupub@gmail.com
-* wechat: pengpengt00
-* telegram: [@PDUPUB](https://t.me/pdupub)
-* telegram group: [@PDUGroup](https://t.me/pdugroup)
 * twitter: [@PDUPUB](https://twitter.com/pdupub)
 
 

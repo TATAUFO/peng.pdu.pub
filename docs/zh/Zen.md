@@ -46,6 +46,5 @@ layout: default
 引用产生客观有序，存在基于主观选择，时间不可逆，有限的生命和无限的延续
 
 
-[back](../../)
+[Back Home](/)
 
-<a href="https://pdu.pub"><img height="32" align="right" src="https://peng.pdu.pub/assets/img/logo.png"></a>

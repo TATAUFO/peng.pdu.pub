@@ -6,10 +6,6 @@ layout: default
 
 * iOS App: [https://apps.apple.com/us/app/p-d-u/id6443928730](https://apps.apple.com/us/app/p-d-u/id6443928730)
 * github: [github.com/pdupub](https://github.com/pdupub)
-* email: pdupub@gmail.com
-* wechat: pengpengt00
-* telegram: [@PDUPUB](https://t.me/pdupub)
-* telegram group: [@PDUGroup](https://t.me/pdugroup)
 * twitter: [@PDUPUB](https://twitter.com/pdupub)
 
 **Abstract:** This paper proposes a social network system that can be implemented in a peer-to-peer network environment, which enables any user to freely publish information, and at the same time realizes the number of information publishers without third-party authentication. limited controllability. Digital signatures can guarantee the authenticity, integrity and non-repudiation of information, but since the key itself has no creation cost, when there is no third-party organization to verify and associate the digital signature with the user identity behind it, the system will be flooded with a large number of robot accounts, Make account-based penalty mechanisms useless. We propose a new solution to build social network services based on peer-to-peer and help users to effectively screen information publishers without relying on third-party authentication. All messages in the system determine the ordered relationship through mutual reference, and then determine their source by signature. Homologous total order message sequence is regarded as an information publisher identity, and all messages in the system can constitute one or more message sets with partial order relationship. Any information publisher is free to create a new species or identify other identities as belonging to a certain species. The user constructs the species range based on the obtained species identification information, and further filters suspicious information publishers according to the identification relationship. This process changes the unified verification and consistent user range in centralized services into a scalable species-based identity range determined by users themselves.
@@ -158,6 +154,4 @@ We propose an identity construction method that does not rely on centralized aut
 * [iOS App beta](https://testflight.apple.com/join/FqQGxhbn)
 
 
-[back](../../)
-
-<a href="https://pdu.pub"><img height="32" align="right" src="https://peng.pdu.pub/assets/img/logo.png"></a>
+[Back Home](/)
