@@ -37,6 +37,14 @@ body {
     padding: 5px; /* 可选：为图片周围留白 */
     border-radius: 5px; /* 可选：为图片添加圆角 */
   }
+  /* 引用块样式 */
+  blockquote {
+    margin: 20px 0;
+    padding-left: 20px;
+    border-left: 4px solid #404040; /* 左侧竖线 */
+    color: #b8b8b8; /* 比正文颜色（#e1e1e1）稍微透明一些 */
+    font-style: italic;
+  }
 
   /* 页头和页脚 */
   header, footer {
