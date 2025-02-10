@@ -16,7 +16,10 @@ body {
     width: 90%;
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px;    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
   
   a {
@@ -46,14 +49,22 @@ body {
     font-style: italic;
   }
 
+  main {
+    flex-grow: 1;
+  }
+
   /* 页头和页脚 */
   header, footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 30px 0;
     color: #ffffff;
     background-color: #1c1c1c;
   }
   
+  td {
+    padding: 0 30px;
+  }
+
   /* 文章样式 */
   .post-header h1 {
     font-size: 2rem;
