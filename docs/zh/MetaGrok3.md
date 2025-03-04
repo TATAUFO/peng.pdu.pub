@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-# Minimal Metaphysics
-客观世界，主观时间 - 极简形而上学：从时间到元宇宙的哲学冒险
+# Minimal Metaphysics (Grok3)
+# 客观世界，主观时间 - 极简形而上学：从时间到元宇宙的哲学冒险
 
 * website: [https://peng.pdu.pub](https://peng.pdu.pub)
 * twitter: [@PDUPUB](https://twitter.com/pdupub)
