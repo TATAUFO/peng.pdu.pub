@@ -5,7 +5,8 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 
-  	site: 'https://peng.pdu.pub',
+  site: 'https://TATAUFO.github.io/peng.pdu.pub', // 临时测试用 github.io 地址也行
+  base: '/peng.pdu.pub/',
   	output: 'static',
 	integrations: [
 		starlight({
