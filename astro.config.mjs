@@ -7,7 +7,7 @@ export default defineConfig({
 
   site: 'https://TATAUFO.github.io/peng.pdu.pub', // 临时测试用 github.io 地址也行
   base: '/peng.pdu.pub/',
-  	output: 'static',
+  	// output: 'static',
 	integrations: [
 		starlight({
 			title: 'Peng\'s Notebook',
