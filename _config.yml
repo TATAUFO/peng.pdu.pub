@@ -1,8 +1,0 @@
-title: Peng's Notebook
-logo: /assets/img/logo.png
-description: Everything about ParaDigi Universe & Minimal Metaphysics
-theme: null
-markdown: kramdown
-permalink: /:title/
-baseurl: "" # 如果根目录是 "/"
-url: "https://peng.pdu.pub" # 替换为你的 GitHub Pages URL
