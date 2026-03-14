@@ -1,8 +1,8 @@
 ---
-title: PDU 一种基于去中心化账户系统的社交网络(V1)
+title: Version 1 
 ---
+### PDU -- 一种基于去中心化账户系统的社交网络
 
-Parallel Digital Universe - A decentralized identity-based social network
 
 * email: pdupub@gmail.com
 * twitter: [@PDUPUB](https://twitter.com/pdupub)

@@ -1,7 +1,7 @@
 ---
 title: 构建元宇宙
 ---
-### 客观世界，主观时间 - 构建元宇宙（去中心化网络系统）的哲学基础
+### -- 构建元宇宙的哲学基础
 
 * website: [https://peng.pdu.pub](https://peng.pdu.pub)
 * twitter: [@PDUPUB](https://twitter.com/pdupub)

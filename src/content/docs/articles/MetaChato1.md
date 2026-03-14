@@ -1,9 +1,10 @@
 ---
-title:  波动之上(ChatGPT o1)
+title:  波动之上
 ---
-### 波动之上：去中心化世界的形而上之旅
+### -- 去中心化世界的形而上之旅
 
 * website: [https://peng.pdu.pub](https://peng.pdu.pub)
+* twitter: [@PDUPUB](https://twitter.com/pdupub)
 
 
 在绝大多数人的日常经验中，时间似乎像河流般客观流逝，世界仿佛有某个中心（譬如“上帝视角”或“客观真理”）可以让我们一览无余。然而，如果一切并非如此呢？

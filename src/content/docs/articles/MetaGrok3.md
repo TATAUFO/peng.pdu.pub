@@ -1,11 +1,10 @@
 ---
-title: 客观世界，主观时间 (Grok3)
+title: 客观世界 | 主观时间
 ---
-### 客观世界，主观时间 - 极简形而上学：从时间到元宇宙的哲学冒险
+###  -- 极简形而上学：从时间到元宇宙的哲学冒险
 
 * website: [https://peng.pdu.pub](https://peng.pdu.pub)
 * twitter: [@PDUPUB](https://twitter.com/pdupub)
-
 
 ## 引言：从区块链到哲学
 

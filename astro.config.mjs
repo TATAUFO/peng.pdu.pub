@@ -14,6 +14,10 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/tataufo/peng.pdu.pub' }],
 			sidebar: [
 				{
+					label: 'WhitePapers',
+					autogenerate: { directory: 'whitepapers' },
+				},
+				{
 					label: 'Articles',
 					autogenerate: { directory: 'articles' },
 					// items: [
@@ -22,7 +26,7 @@ export default defineConfig({
 					// ],
 				},
 				{
-					label: 'Diary',
+					label: 'Diaries',
 					autogenerate: { directory: 'diary' },
 				},
 				// {

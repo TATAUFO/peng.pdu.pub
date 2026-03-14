@@ -2,6 +2,8 @@
 title: PDU之禅
 ---
 
+* website: [https://peng.pdu.pub](https://peng.pdu.pub)
+* twitter: [@PDUPUB](https://twitter.com/pdupub)
 
 ### release 0.3.1
 

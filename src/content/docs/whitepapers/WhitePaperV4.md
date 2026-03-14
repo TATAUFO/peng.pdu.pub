@@ -1,8 +1,8 @@
 ---
-title: PDU协议：点对点的社交网络服务(V4)
+title: Version 4
 ---
+### PDU协议 -- 点对点的社交网络服务
 
-PDU Protocol: A Peer-to-Peer Social Netwrok Service
 * email: liupeng@pdu.pub
 
 **摘要：** 
