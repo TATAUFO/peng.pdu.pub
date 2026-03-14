@@ -7,7 +7,7 @@ hero:
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Diary & Articles
+    - text: 日记 & 杂文
       link: /articles/minimalmetaphysics/
       icon: right-arrow
     - text: Learn more about ParaDigi Universe
@@ -18,23 +18,40 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
-
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="PDU之禅" icon="pencil">
+		* 事件通过有向关联确定偏序关系。
+		* 全序事件集合可被视为单一个体。
+		* 群体的构成源于个体的自我认知。
+		* 系统世界决定于个体的主观感知。
+
+		更多[老版本](/articles/zen)
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="PDU协议：点对点的社交网络服务" icon="document">
+		一个完全点对点的社交网络系统应允许参与者自由发布信息并有效获取信息，且在使用过程中无需依赖任何第三方服务的帮助。然而，如果此系统没有采用如手机号等中心化的验证手段，使得可以零成本批量创建新账户，则会由于无法避免Sybil攻击（女巫攻击），导致系统的奖惩机制失效，正常内容被垃圾信息淹没，系统无法使用。本文提出了一种在不依赖任何第三方用户认证服务情况下构建点对点社交网络的方案。
+		Learn more in [白皮书 V4](/articles/whitepaperv4/).
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="客观世界/主观时间" icon="add-document">
+		元宇宙的哲学主要讨论以下四个部分。
+		第一部分主要讨论时间。第二部分以**去中心化的存在**为公理基础，讨论了宇宙形态。第三部分主要讨论**生命和智能**，两者被认为是两个完全独立的概念。第四部分重要讨论人的概念及其余社会的必然联系。
+		
+		[原文...](/articles/minimalmetaphysics/)
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="本子的比喻" icon="setting">
+		可以把社交网络想象成一个本子，每个用户都有属于自己的一页纸，用户能且只能在属于自己的那页纸上留言。任何人，不限于用户，都可以在本中任意翻看别人的留言。至于更复杂的功能，也只是在本子上添加了一些设定。回复消息，等于是在自己页写入某条留言时，标注此条...
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="八卦国编年史" icon="open-book">
+		八卦国是一个神奇的国家，交流八卦是他们的生活态度，这里所讲述的就是他们的故事。
+
+		很久很久以前，八卦国还只是一个百十户人家的村庄，他们因共同的爱好“讲八卦”而聚在一起。
+
+		[原文](/articles/fakehistory/)
+	</Card>
+
+	<Card title="日记" icon="sun">
+		记录想法的进化路径，大约从2019年开始，某日突然开始思考能否创建一个去中心化的社交网络，这里的所有想法，也都源于这个最初的念头。
+
+		[我的日记本](/diary/0000)
+		
 	</Card>
 </CardGrid>
