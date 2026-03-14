@@ -26,8 +26,24 @@ export default defineConfig({
 					// ],
 				},
 				{
-					label: 'Diaries',
-					autogenerate: { directory: 'diary' },
+					label: 'Current Journal',
+					autogenerate: { directory: 'journal_v4' },
+				},
+				{
+					label: 'Journal Vol. 3',
+					autogenerate: { directory: 'journal_v3' },
+				},
+				{
+					label: 'Journal Vol. 2',
+					autogenerate: { directory: 'journal_v2' },
+				},
+				{
+					label: 'Journal Vol. 1',
+					autogenerate: { directory: 'journal_v1' },
+				},
+				{
+					label: 'Journal on Twitter',
+					autogenerate: { directory: 'journal_x' },
 				},
 				// {
 				// 	label: 'Reference',
