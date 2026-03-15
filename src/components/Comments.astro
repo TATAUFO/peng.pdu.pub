@@ -1,0 +1,32 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Footer.astro';
+---
+
+<Default {...Astro.props}>
+  <slot />
+</Default>
+
+
+<div class="giscus"></div>
+<script src="https://giscus.app/client.js"
+        data-repo="TATAUFO/peng.pdu.pub"
+        data-repo-id="R_kgDOJosedQ"
+        data-category="Comments"
+        data-category-id="DIC_kwDOJosedc4C4acq"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
+
+<style>
+  .giscus {
+    margin-top: 3rem;
+  }
+</style>

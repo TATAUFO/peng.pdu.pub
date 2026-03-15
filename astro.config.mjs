@@ -11,6 +11,13 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Peng\'s Notebook',
+			description: 'Diary & Philosophical Path of MiniMeta',
+
+			components: {
+					// 推荐覆盖 Footer，这样评论会显示在正文下方，且不破坏布局
+					Footer: './src/components/Comments.astro',
+				},
+
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/tataufo/peng.pdu.pub' }],
 			sidebar: [
 				{
