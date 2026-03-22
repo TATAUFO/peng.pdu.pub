@@ -13,11 +13,11 @@ title: Version 4
 
 当今网络上的信息传播和交互主要依赖Facebook、Twitter/X、WeChat等中心化平台，这些平台的存在使得用户可以方便地发布信息，建立联系。平台使用各种算法来检测和过滤垃圾信息，确保用户体验。然而中心化社交服务的问题也逐渐凸显。第三方服务有可能滥用用户信息或泄露用户隐私数据。可能会利用其强大的用户基础来锁定用户，维护其垄断地位。此外，中心化服务还容易受到政府的监管和封锁，因为它们是目标清晰的可控实体。
 
-尽管存在以上问题，但大多数用户仍然不得不继续使用原有平台。虽然更换平台不会导致数据丢失，但会失去在该平台上积累的用户关系，从而降低自身的影响力[^1]。这个原因使得用户很大程度上被平台锁定。
+尽管存在以上问题，但大多数用户仍然不得不继续使用原有平台。虽然更换平台不会导致数据丢失，但会失去在该平台上积累的用户关系，从而降低自身的影响力。这个原因使得用户很大程度上被平台锁定。
 
-去中心化的社交平台近年来发展迅速，试图解决中心化平台带来的诸多问题，如Mastodon。Mastodon采用的联邦架构[^2]摒弃了单一中心，由多个可相互通信的服务器组成，使用户关系数据得以自行保存。然而，用户注册过程和内容管理仍依赖各服务器管理员。这种治理结构可视为多个独立小型中心化平台的集合，仍无法根本避免中心化平台中遇到的问题。
+去中心化的社交平台近年来发展迅速，试图解决中心化平台带来的诸多问题，如Mastodon。Mastodon采用的联邦架构摒弃了单一中心，由多个可相互通信的服务器组成，使用户关系数据得以自行保存。然而，用户注册过程和内容管理仍依赖各服务器管理员。这种治理结构可视为多个独立小型中心化平台的集合，仍无法根本避免中心化平台中遇到的问题。
 
-基于区块链的社交平台（如Steemit[^3][^4]和Minds[^5]）采用了一定数量的代币作为创建或激活账户的成本，同时利用代币激励用户的社交行为。尽管这种方法增加了创建账户的成本，但与中心化平台基于身份认证的方式不同。这种方式无法有效避免虚假账户的泛滥，并对经济能力较弱的用户产生不公平限制，从而降低了用户群体的多样性和包容性。
+基于区块链的社交平台（如Steemit和Minds）采用了一定数量的代币作为创建或激活账户的成本，同时利用代币激励用户的社交行为。尽管这种方法增加了创建账户的成本，但与中心化平台基于身份认证的方式不同。这种方式无法有效避免虚假账户的泛滥，并对经济能力较弱的用户产生不公平限制，从而降低了用户群体的多样性和包容性。
 
 一些社交软件在积累用户的初期往往采用邀请制的方式来控制新用户的可信度，这种方法有效地防止了恶意注册和虚假账户的泛滥。然而，这种方式也会阻碍更广泛用户群体的参与。对于不认识现有用户的人来说，加入平台变得极为困难。此外，早期用户对社区文化和规则具有较大的影响力，这可能导致社区文化的单一性，难以吸引多元化的用户群体。
 
@@ -37,7 +37,7 @@ title: Version 4
 
 ## 发布者
 
-为了对账户进行准确判断，我们需要确保账户发布的内容未被篡改，并能在发布者删除已发布消息时进行检测。在点对点分布式系统中实现这一特性，我们要求每个账户发布的内容形成类似区块链的链表结构[^6]。规定每条消息的引用列表中，第一条引用必须是同一私钥签发的上一条信息的签名，如图2。如果当前信息是此私钥所签名的第一条信息，则引用列表中的第一个值为0，以标示起点。
+为了对账户进行准确判断，我们需要确保账户发布的内容未被篡改，并能在发布者删除已发布消息时进行检测。在点对点分布式系统中实现这一特性，我们要求每个账户发布的内容形成类似区块链的链表结构。规定每条消息的引用列表中，第一条引用必须是同一私钥签发的上一条信息的签名，如图2。如果当前信息是此私钥所签名的第一条信息，则引用列表中的第一个值为0，以标示起点。
 
 <!-- ![msgs](../res/publisher_id.png) -->
 
@@ -53,9 +53,9 @@ title: Version 4
 
 基于签名消息构成的消息链表，使得任何发布者若试图篡改已发布的内容，都会被他人轻易察觉。因此，依赖这种数据形式，可以较为公正地对信息发布者进行评判。然而，如果身份被屏蔽后，恶意发布者可以零成本地更换签名私钥继续发布消息，这将导致惩罚机制失效。
 
-传统的中心化平台在创建用户时，通常需要通过手机号等验证方式，将用户的现实身份作为创建虚拟身份的成本。在一些去中心化身份系统的项目中，如Sovrin[^7]等，也采用了类似的方式。这种做法相对合理，但必须借助可信任的第三方完成验证的部分。一些基于区块链的社交系统[^4]通过收取一定数量的代币作为创建账户的成本。然而，由于每个使用者的财富状况不同，很难找到一个既能吸引用户参与又能抑制垃圾账户创建的公平价格。
+传统的中心化平台在创建用户时，通常需要通过手机号等验证方式，将用户的现实身份作为创建虚拟身份的成本。在一些去中心化身份系统的项目中，如Sovrin等，也采用了类似的方式。这种做法相对合理，但必须借助可信任的第三方完成验证的部分。一些基于区块链的社交系统通过收取一定数量的代币作为创建账户的成本。然而，由于每个使用者的财富状况不同，很难找到一个既能吸引用户参与又能抑制垃圾账户创建的公平价格。
 
-相关研究表明[^8-^10]，通过分析用户之间的互动行为，可以有效地计算出用户之间的信任关系。这种基于互动的信任评估方法在社交系统中表现出较高的精度，有助于识别并排除虚假账户，从而有效防止女巫攻击。在点对点的分布式系统中，所有信息都是基于公开消息的。这些消息内容已经包含了发布者之间的评论、点赞等互动行为。从任何一个发布者身份出发，我们都可以依据不同的信任关系阈值，将于其互动的发布者身份构建成多个不同程度的信任发布者集合。又因为用户之间的信任关系具有传递性[^11]，即如果一个用户被其他用户认为是可信的，那么与该用户有信任关系的第三方也将被认为是可信的。所以可以针对结果集合中的部分或全部身份，再次寻找与他们有互动关系的发布者身份进行计算，用这种方式逐步扩大可见用户集合中身份的数量。
+相关研究表明，通过分析用户之间的互动行为，可以有效地计算出用户之间的信任关系。这种基于互动的信任评估方法在社交系统中表现出较高的精度，有助于识别并排除虚假账户，从而有效防止女巫攻击。在点对点的分布式系统中，所有信息都是基于公开消息的。这些消息内容已经包含了发布者之间的评论、点赞等互动行为。从任何一个发布者身份出发，我们都可以依据不同的信任关系阈值，将于其互动的发布者身份构建成多个不同程度的信任发布者集合。又因为用户之间的信任关系具有传递性，即如果一个用户被其他用户认为是可信的，那么与该用户有信任关系的第三方也将被认为是可信的。所以可以针对结果集合中的部分或全部身份，再次寻找与他们有互动关系的发布者身份进行计算，用这种方式逐步扩大可见用户集合中身份的数量。
 
 需要注意的是，可见身份集合并不等同于传统中心化平台中的关注用户，而更类似于一个由使用者自己划定范围的平台用户集合。只有存在于这个范围内的身份所发布的信息才可能被使用者看到。这个可见用户集合既可以由使用者直接扩展，也可以按照定义的算法自动扩展或缩减。例如，集合中的用户如果主动与其他用户发生互动，则将被动方的身份加入到可见身份集合。再例如，当判定某个身份为垃圾信息发布者后，可以将引入该身份到可见身份集合的那个身份同时屏蔽。
 
@@ -125,26 +125,3 @@ title: Version 4
 虽然系统中的所有消息都是公开的，但用户仍然可以基于已建立的身份信息，通过系统外的其他途径传递加密数据。同时，可以通过信息阻断，分割网络中的身份和现实中的身份，从而进一步保护隐私。
 
 基于该系统，可以轻松移植现有的主流区块链共识机制。由于系统中具备身份创建成本，还可以对一些需要质押限制的共识机制进行优化，有助于提升加密货币的安全性和稳定性，提升用户体验。
-
-## 参考文献
-[^1]: Hatamleh, I.H.M., Safori, A.O., Habes, M., Tahat, O., Ahmad, A.K., Abdallah, R.A.-Q., and Aissani, R., "Trust in Social Media: Enhancing Social Relationships," Social Sciences, vol. 12, no. 7, p. 416, 2023. doi: 10.3390/socsci12070416. Available: https://www.mdpi.com/2076-0760/12/7/416
-
-[^2]: L. La Cava, S. Greco, and A. Tagarelli, "Understanding the growth of the Fediverse through the lens of Mastodon," Applied Network Science, 2021. [Online]. Available: https://arxiv.org/pdf/2106.15473
-
-[^3]: Steemit, "Steem Platform Whitepaper 2.0," GitHub Repository, 2024. Available: https://github.com/steemit/whitepaper
-
-[^4]: M. Thelwall, "Can social news websites pay for content and curation? The SteemIt cryptocurrency model," Journal of Information Science, vol. 44, no. 6, pp. 736-751, 2018. doi: 10.1177/0165551517748290. Available: https://sci-hub.ru/10.1177/0165551517748290
-
-[^5]: B. Ottman and J. Doe, "The Censorship Effect," Minds, 2019. Available: https://cdn-assets.minds.com/The_Censorship_Effect.pdf
-
-[^6]: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System," 2008. Available: https://bitcoin.org/bitcoin.pdf
-
-[^7]: D. Reed and D. Hardman, "How DIDs, Keys, Credentials, and Agents Work Together in Sovrin," Sovrin Foundation, 2018. Available: https://sovrin.org/wp-content/uploads/2019/01/How-DIDs-Keys-Credentials-and-Agents-Work-Together-in-Sovrin-131118.pdf
-
-[^8]: G. Jethava and U. P. Rao, "An Interaction-Based and Graph-Based Hybrid Approach to Evaluate Trust in Online Social Networks (OSNs)," Arabian Journal for Science and Engineering, vol. 47, no. 8, pp. 9615–9628, 2022. doi: 10.1007/s13369-021-06332-w. Available: https://link.springer.com/article/10.1007/s13369-021-06332-w
-
-[^9]: W. Lin, Z. Gao, and B. Li, "Guardian: Evaluating Trust in Online Social Networks with Graph Convolutional Networks," in Proceedings of IEEE INFOCOM, Toronto, Canada, 2020, pp. 914-923. doi: 10.1109/INFOCOM41043.2020.9155370. Available: https://ieeexplore.ieee.org/abstract/document/9155370
-
-[^10]: A. Khaksari and M. R. Keyvanpour, "TP-TA: A Comparative Analytical Framework for Trust Prediction Models in Online Social Networks Based on Trust Aspects," Artificial Intelligence Review, vol. 52, no. 3, pp. 1929–1960, 2019. doi: 10.1007/s10462-017-9583-1. Available: https://link.springer.com/article/10.1007/s10462-017-9583-1.
-
-[^11]: R. Ureña, G. Kou, Y. Dong, F. Chiclana, and E. Herrera-Viedma, "A Review on Trust Propagation and Opinion Dynamics in Social Networks and Group Decision Making Frameworks," Information Sciences, vol. 478, pp. 461–475, 2019. doi: 10.1016/j.ins.2018.11.037. Available: https://www.researchgate.net/publication/329039753_A_review_on_trust_propagation_and_opinion_dynamics_in_social_networks_and_group_decision_making_frameworks

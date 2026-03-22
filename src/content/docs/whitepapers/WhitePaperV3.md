@@ -3,7 +3,6 @@ title: Version 3
 ---
 ### PDU -- 基于点对点的社交网络系统
 
-* iOS App: [https://apps.apple.com/us/app/p-d-u/id6443928730](https://apps.apple.com/us/app/p-d-u/id6443928730)
 * github: [github.com/pdupub](https://github.com/pdupub)
 * twitter: [@PDUPUB](https://twitter.com/pdupub)
 

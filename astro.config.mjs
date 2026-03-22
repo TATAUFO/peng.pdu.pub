@@ -22,7 +22,14 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'WhitePapers',
-					autogenerate: { directory: 'whitepapers' },
+					// autogenerate: { directory: 'whitepapers' },
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Version 4', slug: 'whitepapers/whitepaperv4/' },
+						{ label: 'Version 3', slug: 'whitepapers/whitepaperv3/' },
+						{ label: 'Version 2', slug: 'whitepapers/whitepaperv2/' },
+						{ label: 'Version 1', slug: 'whitepapers/whitepaperv1/' },
+					],
 				},
 				{
 					label: 'Articles',
