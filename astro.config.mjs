@@ -32,8 +32,8 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Articles',
-					autogenerate: { directory: 'articles' },
+					label: 'Drafts',
+					autogenerate: { directory: 'drafts' },
 					// items: [
 					// 	// Each item here is one entry in the navigation menu.
 					// 	{ label: 'Example Guide', slug: 'guides/example' },
