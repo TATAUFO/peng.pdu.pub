@@ -32,6 +32,8 @@ export default defineConfig({
 						{ label: '第四章：人与社会', slug: 'minimeta/chapter_4' },
 						{ label: '框架的完整闭环', slug: 'minimeta/chapter_5' },
 						{ label: '框架的哲学地位与边界', slug: 'minimeta/chapter_6' },
+						{ label: '核心名词翻译对照表', slug: 'minimeta/chapter_7' },
+						{ label: 'Minimal Metaphysics', slug: 'minimeta/en' },
 					],
 				},
 				{
