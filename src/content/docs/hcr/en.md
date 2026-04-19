@@ -1,5 +1,5 @@
 ---
-title: Minimal Metaphysics
+title: Horizon-Constrained Realism
 ---
 
 ## Preface: Starting Point and Methodology
