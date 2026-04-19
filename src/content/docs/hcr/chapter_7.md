@@ -7,7 +7,7 @@ title: 核心名词翻译对照表
 | 中文 | 英文 |
 |------|------|
 | 光基智能 | light-based intelligence |
-| 尺寸维度 | scale dimension |
+| 尺度视界 | Scale horizon |
 | 视界 | horizon |
 | 认识论工具 | epistemological tool |
 | 本体论实在 | ontological reality |
