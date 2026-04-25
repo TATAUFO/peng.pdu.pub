@@ -10,7 +10,7 @@ export default defineConfig({
   	// output: 'static',
 	integrations: [
 		starlight({
-			title: 'Peng\'s Notebook',
+			title: 'Planet of Cyclops',
 			description: 'Diary & Philosophical Path of Horizon-Constrained Realism',
 
 			components: {
