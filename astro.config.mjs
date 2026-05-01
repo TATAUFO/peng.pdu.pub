@@ -51,7 +51,12 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Matrix',
+					autogenerate: { directory: 'matrix' },
+				},
+				{
 					label: 'Drafts',
+  					collapsed: true,
 					autogenerate: { directory: 'drafts' },
 					// items: [
 					// 	// Each item here is one entry in the navigation menu.
@@ -60,22 +65,27 @@ export default defineConfig({
 				},
 				{
 					label: 'Current Journal',
+  					collapsed: true,
 					autogenerate: { directory: 'journal_v4' },
 				},
 				{
 					label: 'Journal Vol. 3',
+  					collapsed: true,
 					autogenerate: { directory: 'journal_v3' },
 				},
 				{
 					label: 'Journal Vol. 2',
+  					collapsed: true,
 					autogenerate: { directory: 'journal_v2' },
 				},
 				{
 					label: 'Journal Vol. 1',
+  					collapsed: true,
 					autogenerate: { directory: 'journal_v1' },
 				},
 				{
 					label: 'Journal on Twitter',
+  					collapsed: true,
 					autogenerate: { directory: 'journal_x' },
 				},
 				// {
