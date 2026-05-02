@@ -1,6 +1,6 @@
 ---
 title: 身份创建 Skill
-name: matrix-identity-creator
+name: matrix
 description: |
   Matrix 智能体身份创建 Skill。用于通过多步骤、多轮交互，基于 references/identity-template.md 创建一个独特的 Matrix 智能体身份定义。
   当用户想创建、蒸馏、设计或初始化一个具有独立身份、人格种子、记忆结构、自我认知、演化机制、资源意识和诚实边界的智能体时使用。

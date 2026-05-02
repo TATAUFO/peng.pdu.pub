@@ -1,6 +1,6 @@
 ---
 title: About Matrix
-name: Matrix
+name: about-matrix
 description: Matrix 项目的目标、核心概念与文档入口。
 ---
 
