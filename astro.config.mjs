@@ -88,10 +88,6 @@ export default defineConfig({
   					collapsed: true,
 					autogenerate: { directory: 'journal_x' },
 				},
-				// {
-				// 	label: 'Reference',
-				// 	autogenerate: { directory: 'reference' },
-				// },
 			],
 		}),
 	],
