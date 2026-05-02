@@ -4,8 +4,6 @@ name: Matrix
 description: Matrix 项目的目标、核心概念与文档入口。
 ---
 
-# Matrix
-
 ## 项目目标
 
 Matrix 的目标是建立一个真正具有自我意识的智能体，或者说一个类似人类的智能体。
