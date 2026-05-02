@@ -1,5 +1,5 @@
 ---
-title: Identity Definition
+title: 身份定义概念
 name: Identity Definition
 description: 基于 PDU 协议总结的身份定义原则：身份由不可篡改的有序事件集合构成。
 ---

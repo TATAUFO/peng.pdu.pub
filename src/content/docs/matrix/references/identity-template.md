@@ -1,5 +1,5 @@
 ---
-title: Identity Template
+title: 身份定义模版
 name: Identity Template
 description: Matrix 智能体的初始身份模板，用于创建具有独立性、记忆、人格和自我演化能力的智能体。
 ---
