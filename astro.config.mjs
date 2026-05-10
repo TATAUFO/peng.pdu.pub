@@ -66,6 +66,11 @@ export default defineConfig({
 				{
 					label: 'Current Journal',
   					collapsed: true,
+					items: [{ autogenerate: { directory: 'journal_v5' } }],
+				},
+				{
+					label: 'Journal Vol. 4',
+  					collapsed: true,
 					items: [{ autogenerate: { directory: 'journal_v4' } }],
 				},
 				{
