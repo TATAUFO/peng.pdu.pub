@@ -43,6 +43,7 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						
 						{label: 'Slide of PDU',slug: 'whitepapers/slide',},
+						{ label: 'Version 6', slug: 'whitepapers/whitepaperv6' },
 						{ label: 'Version 5', slug: 'whitepapers/whitepaperv5' },
 						{ label: 'Version 4', slug: 'whitepapers/whitepaperv4' },
 						{ label: 'Version 3', slug: 'whitepapers/whitepaperv3' },
